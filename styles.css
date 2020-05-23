@@ -1,0 +1,9 @@
+canvas{
+    border:2px black solid;
+}
+div{
+    display: none;
+}
+.disBlock{
+    display: block;
+}

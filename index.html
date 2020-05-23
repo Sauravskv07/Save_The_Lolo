@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Jump Dragon
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js">
+        </script>
+    </head>
+    <body>
+        <h2 style="color: green;"> GeeksForGeeks Monster Block Game</h2>
+        <canvas id="myCanvas" width="500px" height="500px">
+        </canvas>
+        <div id="ButtonDiv">
+            <button onclick="resetGame();" style="position: relative; margin-left: 100px; padding: 20px; background-color: ivory; color: green; border: 2px solid green;">
+                ResetGame
+            </button>
+        </div>
+        <div style="display: none; color: green;font-style: italic; padding: 1em;" id="selectMonster">
+            <button onclick="leftMonster();" style=" padding: 20px; background-color: ivory; color: green; border: 2px solid green;">&lt;</button>
+            Select Monster !
+            <button onclick="rightMonster();" style="padding: 20px; background-color: ivory; color: green; border: 2px solid green;">&gt;</button>
+            <button onclick="selectMonster();" style="position: relative; margin-left: 100px; padding: 20px; background-color: ivory; color: green; border:2px solid green;">Select</button>
+        </div>
+        <div style="display :none; color: green;font-style: italic; padding: 1em;" id="selectBackground">
+            <button onclick="leftBackground();" style=" padding: 20px; background-color: ivory; color: green; border: 2px solid green;">&lt;</button>
+            Select Background !
+            <button onclick="rightBackground();" style=" padding: 20px; background-color: ivory; color: green; border: 2px solid green;">&gt;</button>
+            <button style="position: relative; margin-left: 100px; padding: 20px; background-color: ivory; color: green; border: 2px solid green;" onclick="selectBackground();">Select</button>
+        </div>
+    </body>
+</html>
